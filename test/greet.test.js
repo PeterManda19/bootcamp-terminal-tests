@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var greet = require('../greet');
 
 describe('greet', function() {
   /**

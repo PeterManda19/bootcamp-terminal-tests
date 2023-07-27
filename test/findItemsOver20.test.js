@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var findItemsOver20 = require('../findItemsOver20');
 
 describe('findItemsOver20', function() {
   it('should return items with quantity greater than 20', function() {

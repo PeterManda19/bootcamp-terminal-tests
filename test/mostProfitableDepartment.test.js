@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var mostProfitableDepartment = require('../mostProfitableDepartment');
 
 describe('mostProfitableDepartment', function(){
 

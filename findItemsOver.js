@@ -1,7 +1,6 @@
 module.exports = function(){
   //you functions logic here
-}
-function findItemsOver(objectList, threshold){
+  function findItemsOver(objectList, threshold){
     var itemsOverThreshold = [];
     
     for(var i = 0; i < objectList.length; i++){
@@ -10,4 +9,6 @@ function findItemsOver(objectList, threshold){
       }
     }
     return itemsOverThreshold;
+  }
 }
+

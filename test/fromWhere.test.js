@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var fromWhere = require('../fromWhere');
 
 describe('fromWhere', () => {
   it('should return Bellville when given a regNumber starting with CY', () => {

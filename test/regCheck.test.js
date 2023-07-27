@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var regCheck = require('../regCheck');
 
 describe('regCheck', () => {
   it('should return true when the vehicle registration number ends with the location indicator', () => {

@@ -1,18 +1,19 @@
 module.exports = function(){
     //you functions logic here
-}
-function fromWhere(regNumber){
+    function fromWhere(regNumber){
   
-    if(regNumber.startsWith("CY") ){
-        return "Bellville";
+        if(regNumber.startsWith("CY") ){
+            return "Bellville";
+        }
+        else if(regNumber.startsWith("CJ") ){
+            return "Paarl";
+        }
+        else if(regNumber.startsWith("CA") ){
+            return "Cape Town";
+        }
+        else{
+            return "Some other place!";
+        } 
     }
-    else if(regNumber.startsWith("CJ") ){
-        return "Paarl";
-    }
-    else if(regNumber.startsWith("CA") ){
-        return "Cape Town";
-    }
-    else{
-        return "Some other place!";
-    } 
 }
+

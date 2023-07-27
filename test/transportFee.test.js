@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var transportFee = require('../transportFee');
 
 describe('transportFee', () => {
   it('should return R20 when given morning shift', () => {

@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var totalPhoneBill = require('../totalPhoneBill');
 
 describe('totalPhoneBill', () => {
   it('should return R3.40 for one call and one sms', () => {

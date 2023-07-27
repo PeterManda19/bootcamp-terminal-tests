@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var countAllPaarl = require('../countAllPaarl');
 
 describe('countAllPaarl', () => {
   it('should return 3 for "CJ 123, CJ 456, CJ 789"', () => {

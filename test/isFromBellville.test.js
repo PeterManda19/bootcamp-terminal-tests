@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var isFromBellville = require('../isFromBellville');
 
 describe("isFromBellville", function() {
     /**

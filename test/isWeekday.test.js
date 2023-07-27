@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var isWeekday = require('../isWeekday');
 
 describe('isWeekday', () => {
   it('should return true when given "Monday"', () => {

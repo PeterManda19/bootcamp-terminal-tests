@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var countAllFromTown = require('../countAllFromTown');
 
 describe('countAllFromTown', function() {
 

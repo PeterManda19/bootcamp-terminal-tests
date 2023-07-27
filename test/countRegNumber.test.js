@@ -1,4 +1,4 @@
-var functionToTest = require('../function-to-test');
+var countRegNumber = require('../countRegNumber');
 
 describe('countRegNumber', () => {
   it('should return 1 when given a string with 1 registration number', () => {

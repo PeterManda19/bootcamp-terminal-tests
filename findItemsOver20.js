@@ -1,7 +1,6 @@
 module.exports = function(){
   //you functions logic here
-}
-function findItemsOver20(objectList){
+  function findItemsOver20(objectList){
     var itemsOver20 = [];
     
     for(var i = 0; i < objectList.length; i++){
@@ -10,4 +9,6 @@ function findItemsOver20(objectList){
       }
     }
     return itemsOver20;
+  }
 }
+
