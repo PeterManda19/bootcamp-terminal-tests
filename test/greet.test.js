@@ -1,4 +1,5 @@
 var greet = require('../greet');
+const assert = require('assert');
 
 describe('greet', function() {
   /**

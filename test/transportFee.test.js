@@ -1,4 +1,5 @@
 var transportFee = require('../transportFee');
+const assert = require('assert');
 
 describe('transportFee', () => {
   it('should return R20 when given morning shift', () => {

@@ -1,4 +1,5 @@
 var isFromBellville = require('../isFromBellville');
+const assert = require('assert');
 
 describe("isFromBellville", function() {
     /**

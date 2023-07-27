@@ -1,4 +1,5 @@
 var isWeekday = require('../isWeekday');
+const assert = require('assert');
 
 describe('isWeekday', () => {
   it('should return true when given "Monday"', () => {

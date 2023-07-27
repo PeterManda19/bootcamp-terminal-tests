@@ -1,4 +1,5 @@
 var totalPhoneBill = require('../totalPhoneBill');
+const assert = require('assert');
 
 describe('totalPhoneBill', () => {
   it('should return R3.40 for one call and one sms', () => {

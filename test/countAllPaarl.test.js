@@ -1,4 +1,5 @@
 var countAllPaarl = require('../countAllPaarl');
+const assert = require('assert');
 
 describe('countAllPaarl', () => {
   it('should return 3 for "CJ 123, CJ 456, CJ 789"', () => {

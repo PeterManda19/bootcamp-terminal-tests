@@ -1,14 +1,10 @@
-module.exports = function(){
-  //you functions logic here
-  function findItemsOver(objectList, threshold){
-    var itemsOverThreshold = [];
-    
-    for(var i = 0; i < objectList.length; i++){
-      if(objectList[i].qty > threshold){
-        itemsOverThreshold.push(objectList[i]);
-      }
+module.exports = function findItemsOver(objectList, threshold){
+  var itemsOverThreshold = [];
+  
+  for(var i = 0; i < objectList.length; i++){
+    if(objectList[i].qty > threshold){
+      itemsOverThreshold.push(objectList[i]);
     }
-    return itemsOverThreshold;
   }
-}
-
+  return itemsOverThreshold;
+};

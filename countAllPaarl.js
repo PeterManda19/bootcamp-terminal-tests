@@ -1,16 +1,12 @@
-module.exports = function(){
-  //you functions logic here
+module.exports = function countAllPaarl(regNos){
+  var regNosList = regNos.split(", ");
+  var allPaarlList = [];
   
-  function countAllPaarl(regNos){
-    var regNosList = regNos.split(", ");
-    var allPaarlList = [];
-    
-    for(var i = 0; i < regNosList.length; i++){
-  
-      if(regNosList[i].startsWith("CJ")){
-        allPaarlList.push(regNosList[i]);
-      }
+  for(var i = 0; i < regNosList.length; i++){
+
+    if(regNosList[i].startsWith("CJ")){
+      allPaarlList.push(regNosList[i]);
     }
-    return allPaarlList.length; 
   }
-}
+  return allPaarlList.length; 
+};

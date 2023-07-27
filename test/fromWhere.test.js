@@ -1,4 +1,5 @@
 var fromWhere = require('../fromWhere');
+const assert = require('assert');
 
 describe('fromWhere', () => {
   it('should return Bellville when given a regNumber starting with CY', () => {

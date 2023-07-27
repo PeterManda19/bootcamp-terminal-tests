@@ -1,4 +1,5 @@
 var countRegNumber = require('../countRegNumber');
+const assert = require('assert');
 
 describe('countRegNumber', () => {
   it('should return 1 when given a string with 1 registration number', () => {

@@ -1,4 +1,5 @@
 var mostProfitableDepartment = require('../mostProfitableDepartment');
+const assert = require('assert');
 
 describe('mostProfitableDepartment', function(){
 

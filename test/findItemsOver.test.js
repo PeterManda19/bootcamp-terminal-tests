@@ -1,4 +1,5 @@
 var findItemsOver = require('../findItemsOver');
+const assert = require('assert');
 
 describe('findItemsOver' , function(){
   it('should return items over 20' , function(){

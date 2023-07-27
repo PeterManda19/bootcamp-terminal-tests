@@ -1,4 +1,5 @@
 var yearsAgo = require('../yearsAgo');
+const assert = require('assert');
 
 describe('yearsAgo', () => {
   it('should return 0 when given the current year', () => {
